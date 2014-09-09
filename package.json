@@ -1,0 +1,17 @@
+{
+  "name": "voyager-jshint",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-jshint": "^1.8.4",
+    "jshint-stylish": "^0.4.0",
+    "vinyl-fs": "^0.3.7",
+    "voyager": "^0.2.11"
+  }
+}
