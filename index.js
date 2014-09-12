@@ -1,12 +1,11 @@
 var voyager = require('voyager')
   , jshint = require('gulp-jshint')
-  , vfs = require('vinyl-fs')
-  , CWD = process.cwd();
+  , vfs = require('vinyl-fs');
 
-voyager.task('jshint', 'scripts', function (done) {
+voyager.task('scripts-jshint', ['scripts', 'prebuild'], function (done) {
   vfs.src([
-      CWD + '/src/javascripts/**/*.js'
-    , '!'+ CWD +'/src/javascripts/vendor/**'
+      this.SRC + '/javascripts/**/*.js'
+    , '!' + this.SRC +'/javascripts/vendor/**'
     ])
     .pipe(jshint())
     .on('end', done)
