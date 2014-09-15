@@ -1,6 +1,6 @@
 {
   "name": "voyager-jshint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSHint task for voyager",
   "main": "index.js",
   "author": "David Glivar <davidglivar@gmail.com>",
@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "gulp-jshint": "^1.8.4",
-    "jshint-stylish": "^0.4.0",
-    "voyager": "^0.3.0"
+    "jshint-stylish": "^0.4.0"
   }
 }
