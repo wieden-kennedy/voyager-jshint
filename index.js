@@ -1,11 +1,10 @@
 var voyager = require('voyager')
-  , jshint = require('gulp-jshint')
-  , vfs = require('vinyl-fs');
+  , jshint = require('gulp-jshint');
 
-voyager.task('scripts-jshint', ['scripts', 'prebuild'], function (done) {
-  vfs.src([
+voyager.task('jshint', function (done) {
+  this.src([
       this.SRC + '/javascripts/**/*.js'
-    , '!' + this.SRC +'/javascripts/vendor/**'
+    , '!' + this.SRC + '/javascripts/vendor/**'
     ])
     .pipe(jshint())
     .on('end', done)

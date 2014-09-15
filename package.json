@@ -1,17 +1,17 @@
 {
   "name": "voyager-jshint",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "JSHint task for voyager",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "David Glivar <davidglivar@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidglivar/voyager-jshint.git"
+  },
   "dependencies": {
     "gulp-jshint": "^1.8.4",
     "jshint-stylish": "^0.4.0",
-    "vinyl-fs": "^0.3.7",
-    "voyager": "^0.2.11"
+    "voyager": "^0.3.0"
   }
 }
