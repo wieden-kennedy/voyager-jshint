@@ -2,7 +2,7 @@ var jshint = require('gulp-jshint');
 
 module.exports = function (voyager) {
 
-  voyager.task('jshint', function (done) {
+  voyager.task('jshint', ['scripts', 'prebuild'], function (done) {
     this.src([
         this.SRC + '/javascripts/**/*.js'
       , '!' + this.SRC + '/javascripts/vendor/**'
