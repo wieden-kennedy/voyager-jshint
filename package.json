@@ -1,10 +1,17 @@
 {
   "name": "voyager-jshint",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JSHint task for voyager",
+  "keywords": [
+    "voyager", "jshint", "lint", "task"
+  ],
+  "homepage": "https://github.com/wieden-kennedy/voyager-jshint",
+  "bugs": {
+    "url": "https://github.com/wieden-kennedy/voyager-jshint/issues"
+  },
   "main": "index.js",
   "author": "David Glivar <davidglivar@gmail.com>",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "git@github.com:davidglivar/voyager-jshint.git"
