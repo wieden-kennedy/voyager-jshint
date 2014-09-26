@@ -1,6 +1,6 @@
 {
   "name": "voyager-jshint",
-  "version": "0.2.1",
+  "version": "0.2.11",
   "description": "JSHint task for voyager",
   "keywords": [
     "voyager", "jshint", "lint", "task"
@@ -14,7 +14,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git@github.com:davidglivar/voyager-jshint.git"
+    "url": "git@github.com:wieden-kennedy/voyager-jshint.git"
   },
   "dependencies": {
     "gulp-jshint": "^1.8.4",
