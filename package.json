@@ -1,6 +1,6 @@
 {
   "name": "voyager-jshint",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JSHint task for voyager",
   "keywords": [
     "voyager", "jshint", "lint", "task"
